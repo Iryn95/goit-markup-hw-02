@@ -1,6 +1,11 @@
+:root{
+    --primery-text-color:#757575;
+    --title-text-color:#212121;
+    --accent-color:#2196F3;
+}
 body{
     background-color: #FFFFFF ;
-    color:#757575 ;
+    color:var( --primery-text-color) ;
     
 }
 /* цвет шапки #212121; */
@@ -29,17 +34,41 @@ body{
  }
 
 .logo{
-    color:#2196F3; 
+    color:var(--accent-color); 
 }
 /* Site nav */
 
 .site-nav .link {
-    color: #212121;
+    color: var( --title-text-color);
 }
-.site-nav .link:hover{
-    color: #2196F3;
+.site-nav .link:hover , 
+.site-nav .link:focus{
+    color: var(--accent-color);
 }
-
+/* Contact */
+.contact{
+    color: var( --primery-text-color) ;
+}
+.contact:hover,
+.contact:focus{
+    color:var(--accent-color);
+}
+/* Hero */
+.hero-title{
+    color: #FFFFFF ;
+}
+/* Section */
+.section-title{
+    color:var( --title-text-color) ;
+}
+/* Principles */
+.principles .titile{
+    color:var( --primery-text-color) ;
+}
+/* Team */
+.team .title{
+    color:--title-text-color ;
+}
 
 
 
