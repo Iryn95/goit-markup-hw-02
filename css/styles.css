@@ -1,11 +1,13 @@
 :root{
-    --primery-text-color:#757575;
+    --primary-text-color:#757575;
     --title-text-color:#212121;
     --accent-color:#2196F3;
+    --primary-white-color:#FFFFFF;
+
 }
 body{
-    background-color: #FFFFFF ;
-    color:var( --primery-text-color) ;
+    background-color:var(--primary-white-color) ;
+    color:var( --primary-text-color) ;
     
 }
 /* цвет шапки #212121; */
@@ -47,7 +49,7 @@ body{
 }
 /* Contact */
 .contact{
-    color: var( --primery-text-color) ;
+    color: var( --primary-text-color) ;
 }
 .contact:hover,
 .contact:focus{
@@ -63,11 +65,20 @@ body{
 }
 /* Principles */
 .principles .titile{
-    color:var( --primery-text-color) ;
+    color:var( --primary-text-color) ;
 }
 /* Team */
 .team .title{
     color:--title-text-color ;
+}
+/* Button */
+.button{
+    color:var(--title-text-color) ;
+    background-color:var(--primary-white-color) ;
+}
+.button .primary{
+    background-color:var(--accent-color);
+    color:var(--primary-white-color) ;
 }
 
 
