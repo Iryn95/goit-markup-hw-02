@@ -24,4 +24,23 @@ body{
 /* вторичный цвет фона #F5F4FA */
 
 /* цвет футера #2F303A */
+.list{
+    list-style: none;  
+ }
+
+.logo{
+    color:#2196F3; 
+}
+/* Site nav */
+
+.site-nav .link {
+    color: #212121;
+}
+.site-nav .link:hover{
+    color: #2196F3;
+}
+
+
+
+
 
