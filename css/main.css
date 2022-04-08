@@ -19,6 +19,7 @@
 /* вторичный цвет фона #F5F4FA */
 
 /* цвет футера #2F303A */
+/* Стили для Студия */
 .list{
     list-style: none;  
  }
@@ -52,6 +53,8 @@
     background-color:var(--accent-color);
     color:var(--primary-white-color) ;
 }
+
+/* Стили для Портофолио" */
 
 
 
