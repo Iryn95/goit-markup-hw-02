@@ -20,25 +20,28 @@
 
 /* цвет футера #2F303A */
 /* Стили для Студия */
-.list{
+.list {
     list-style: none;  
  }
 /* Contact */
-.contact{
+.contact {
     color: var( --primary-text-color);
+
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
 .contact:hover,
-.contact:focus{
+.contact:focus {
     color:var(--accent-color);
 }
 /* Hero */
-.hero-title{
+.hero-title {
     background-color: #2F303A ;
     color: #FFFFFF ;
+
     font-size: 44px;
     font-weight: 900;
     line-height: 1.36;
@@ -46,8 +49,9 @@
     text-align: center;
 }
 /* Section */
-.section-title{
+.section-title {
     color:var( --title-text-color) ;
+
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -55,30 +59,32 @@
     letter-spacing: 0.03em;
 }
 /* Principles */
-.principles .titile{
+.principles .titile {
     color:var( --primary-text-color) ;
+
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-.principles .text{
+.principles .text {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
 /* Team */
-.team .title{
+.team .title {
     color:var(--title-text-color) ;
+    
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
 }
-.team .text{
+.team .text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
@@ -89,6 +95,7 @@
 .button {
     background-color:var(--accent-color);
     color:var(--primary-white-color) ;
+
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -100,9 +107,10 @@
 }
 
 /* Стили для Портофолио" */
-.style-filter{
+.style-filter {
     background-color: #F5F4FA;
     color:var( --title-text-color) ;
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -110,20 +118,22 @@
     letter-spacing: 0.03em;
 }
 .style-filter:hover,
-.style-filter:focus{
+.style-filter:focus {
     background-color: var(--accent-color);
     color: var(--primary-white-color);
 }
 /* Examples */
-.examples .title{
+.examples .title {
     color:var(--title-text-color) ;
+
     font-weight: 700;
     font-size: 18px;
     line-height: 2.0;
     letter-spacing: 0.06em;
 }
-.examples .text{
+.examples .text {
     color:var(--primary-text-color) ;
+
     font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
