@@ -37,6 +37,7 @@
 .contact:focus {
     color:var(--accent-color);
 }
+
 /* Hero */
 .hero-title {
     background-color: #2F303A ;
@@ -49,6 +50,9 @@
     text-align: center;
 }
 /* Section */
+.section-group{
+    background-color:#F5F4FA ;
+}
 .section-title {
     color:var( --title-text-color) ;
 
@@ -59,8 +63,8 @@
     letter-spacing: 0.03em;
 }
 /* Principles */
-.principles .titile {
-    color:var( --primary-text-color) ;
+.principles .title {
+    color:var( --title-text-color) ;
 
     font-weight: 700;
     font-size: 14px;
@@ -94,7 +98,7 @@
 /* Button */
 .button {
     background-color:var(--accent-color);
-    color:var(--primary-white-color) ;
+    color:#F5F4FA ;
 
     font-style: normal;
     font-weight: 700;
@@ -118,8 +122,6 @@
 .direct{
     color: rgba(255, 255, 255, 0.6);
 
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -157,6 +159,7 @@
     font-size: 18px;
     line-height: 2.0;
     letter-spacing: 0.06em;
+    text-decoration: none;
 }
 .examples .text { 
     color:var(--primary-text-color) ;
@@ -165,4 +168,9 @@
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
+    text-decoration: none;
+}
+.examples .link {
+    color:var(--title-text-color) ;
+    text-decoration: none;
 }

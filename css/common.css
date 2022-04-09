@@ -31,11 +31,11 @@ h3{
 
 /* Site nav */
 
-.site-nav .link {
+.site-nav .link,.site-nav .link-current {
     color: var( --title-text-color);
     font-size: 14px;
     font-weight: 500;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
 }
