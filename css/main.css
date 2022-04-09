@@ -46,7 +46,7 @@
 }
 /* Team */
 .team .title{
-    color:--title-text-color ;
+    color:var(--title-text-color) ;
 }
 /* Button */
 .button {
@@ -55,7 +55,17 @@
 }
 
 /* Стили для Портофолио" */
-
+.style-filter{
+    background-color: #F5F4FA;
+    color:var( --title-text-color) ;
+}
+.style-filter:hover,
+.style-filter:focus{
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
+.examples .title{
+    color:var(--title-text-color) ;
 
 
 
