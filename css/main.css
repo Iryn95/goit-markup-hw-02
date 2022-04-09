@@ -108,6 +108,7 @@
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    cursor: pointer;
 }
 /* Footer */
 .address{
@@ -145,6 +146,7 @@
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
+    cursor: pointer;
 }
 .style-filter:hover,
 .style-filter:focus {
