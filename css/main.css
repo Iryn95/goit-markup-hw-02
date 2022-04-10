@@ -1,28 +1,57 @@
-/* цвет шапки #212121; */
+:root{
+    --primary-text-color:#757575;
+    --title-text-color:#212121;
+    --accent-color:#2196F3;
+    --primary-white-color:#FFFFFF;
+    --logo-color:#000000;
+    --bg-color:#2F303A;
+    --second-fon-color:#F5F4FA;
+    --direct-color:rgba(255, 255, 255, 0.6);
 
-/* цвет контактов #757575 */
 
-/* цвет героя #FFFFFF */
+}
+body{
+    background-color:var(--primary-white-color) ;
+    color:var( --primary-text-color) ;
+    font-family: Roboto,sans-serif;
+    font-size:14px;
+    letter-spacing: 0.03em; 
+}
 
-/*  цвет заголовков #212121 */
+/* Logo */
+.logo {
+    color:var(--logo-colo); 
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+.logo .accent{
+    color:var(--accent-color) ;
+}
 
-/*  цвет текста #757575 */
+/* Site nav */
 
-/* Футер адрес #FFFFFF */
-
-/* Футер контакты rgba(255, 255, 255, 0.6) */
-
-/* цвет фона  #FFFFFF */
-
-/* цвет фона заголовка #2F303A */
-
-/* вторичный цвет фона #F5F4FA */
-
-/* цвет футера #2F303A */
-/* Стили для Студия */
+.site-nav .link-page,.site-nav .link-current {
+    color: var( --title-text-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+.site-nav .link-page:hover , 
+.site-nav .link-page:focus{
+    color: var(--accent-color);
+}
+.site-nav .link-current {
+    color: var(--accent-color);
+}
 .list {
     list-style: none;  
  }
+
 /* Contact */
 .contact {
     color: var( --primary-text-color);
@@ -39,9 +68,11 @@
 }
 
 /* Hero */
+.hero{
+    background-color:var(--bg-color);
+}
 .hero-title {
-    background-color: #2F303A ;
-    color: #FFFFFF ;
+    color:var(--primary-white-color);
 
     font-size: 44px;
     font-weight: 900;
@@ -51,7 +82,7 @@
 }
 /* Section */
 .section-group{
-    background-color:#F5F4FA ;
+    background-color:var(--second-fon-color);
 }
 .section-title {
     color:var( --title-text-color) ;
@@ -63,6 +94,18 @@
     letter-spacing: 0.03em;
 }
 /* Principles */
+.visually-hidden{
+    position:absolute;
+    white-space: nowrap;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
 .principles .title {
     color:var( --title-text-color) ;
 
@@ -95,24 +138,25 @@
     text-align: center;
     letter-spacing: 0.03em;
 }
+.link {
+    text-decoration: none;
+}
 /* Button */
 .button {
     background-color:var(--accent-color);
-    color:#F5F4FA ;
+    color:var(--second-fon-color);
 
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
     cursor: pointer;
 }
 /* Footer */
 .address{
-    background-color: #2F303A;
+    background-color:var(--bg-color);
+    font-style: normal;
 }
 .address .logo{
     color:var(--primary-white-color) ;
@@ -120,8 +164,18 @@
 .address .logo.accent  {
     color:var(--accent-color)
 }
+.address-direct{
+    color:var(--primary-white-color);
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
 .direct{
-    color: rgba(255, 255, 255, 0.6);
+    color:var(--direct-color);
 
     font-weight: 400;
     font-size: 14px;
@@ -134,11 +188,9 @@
     color:var(--accent-color) 
 }
 
-
-
 /* Стили для Портофолио" */
 .style-filter {
-    background-color: #F5F4FA;
+    background-color:var(--second-fon-color);
     color:var( --title-text-color) ;
 
     font-weight: 500;
@@ -161,7 +213,6 @@
     font-size: 18px;
     line-height: 2.0;
     letter-spacing: 0.06em;
-    text-decoration: none;
 }
 .examples .text { 
     color:var(--primary-text-color) ;
@@ -170,9 +221,7 @@
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
-    text-decoration: none;
 }
-.examples .link {
+.examples-link{
     color:var(--title-text-color) ;
-    text-decoration: none;
 }
