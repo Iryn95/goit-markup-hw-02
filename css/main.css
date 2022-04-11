@@ -8,6 +8,7 @@
     --second-fon-color:#F5F4FA;
     --direct-color:rgba(255, 255, 255, 0.6);
 }
+
 body{
     background-color:var(--primary-white-color) ;
     color:var( --primary-text-color) ;
@@ -15,10 +16,19 @@ body{
     font-size:14px;
     letter-spacing: 0.03em; 
 }
+
 address{
-    background-color:var(--bg-color);
     font-style: normal;
 }
+
+.list {
+    list-style: none;  
+ }
+
+ .link {
+    text-decoration: none;
+}
+
 /* Logo */
 
 .logo {
@@ -29,11 +39,13 @@ address{
     line-height: 1.19;
     letter-spacing: 0.03em;
 }
+
 .logo .accent{
     color:var(--accent-color) ;
 }
 
 /* Site nav */
+
 .site-nav{
     color: var( --title-text-color);
 
@@ -44,26 +56,15 @@ address{
     letter-spacing: 0.02em;
     text-decoration: none;
 }
-.site-nav .link-page {
-    color: var( --title-text-color);
 
-    font-family: Roboto;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    text-decoration: none;
-}
 .site-nav .link-page:hover , 
-.site-nav .link-page:focus{
+.site-nav .link-page:focus {
     color: var(--accent-color);
 }
 .site-nav .link-current {
     color: var(--accent-color);
 }
-.list {
-    list-style: none;  
- }
+
 
 /* Contact */
 .contact {
@@ -81,9 +82,11 @@ address{
 }
 
 /* Hero */
+
 .hero{
     background-color:var(--bg-color);
 }
+
 .hero-title {
     color:var(--primary-white-color);
 
@@ -94,10 +97,13 @@ address{
     text-align: center;
     text-transform: uppercase;
 }
+
 /* Section */
+
 .section-group{
     background-color:var(--second-fon-color);
 }
+
 .section-title {
     color:var( --title-text-color) ;
 
@@ -107,7 +113,9 @@ address{
     text-align: center;
     letter-spacing: 0.03em;
 }
+
 /* Principles */
+
 .visually-hidden{
     position:absolute;
     white-space: nowrap;
@@ -120,6 +128,7 @@ address{
     clip-path: inset(50%);
     margin: -1px;
 }
+
 .principles .title {
     color:var( --title-text-color) ;
 
@@ -129,13 +138,16 @@ address{
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
+
 .principles .text {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
+
 /* Team */
+
 .team .title {
     color:var(--title-text-color) ;
     
@@ -145,6 +157,7 @@ address{
     text-align: center;
     letter-spacing: 0.03em;
 }
+
 .team .text {
     font-weight: 400;
     font-size: 16px;
@@ -152,10 +165,9 @@ address{
     text-align: center;
     letter-spacing: 0.03em;
 }
-.link {
-    text-decoration: none;
-}
+
 /* Button */
+
 .button {
     background-color:var(--accent-color);
     color:var(--second-fon-color);
@@ -168,18 +180,71 @@ address{
     letter-spacing: 0.06em;
     cursor: pointer;
 }
+
+
+/* Стили для Портофолио" */
+
+.style-filter {
+    background-color:var(--second-fon-color);
+    color:var( --title-text-color) ;
+
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+}
+
+.style-filter:hover,
+.style-filter:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
+
+/* Examples */
+
+.examples .title {
+    color:var(--title-text-color) ;
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+}
+
+.examples .text { 
+    color:var(--primary-text-color) ;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+}
+
+.examples-link{
+    color:var(--title-text-color) ;
+}
+
 /* Footer */
 .address{
     background-color:var(--bg-color);
     font-style: normal;
 }
 
+.address .logo { 
+    color:var(--primary-white-color);
+} 
+
 .address-link .logo{
     color:var(--primary-white-color) ;
 }
-.address-linl .logo.accent  {
+
+.address-link .logo.accent  {
     color:var(--accent-color)
 }
+
 .address-direct{
     color:var(--primary-white-color);
 
@@ -204,40 +269,3 @@ address{
     color:var(--accent-color) 
 }
 
-/* Стили для Портофолио" */
-.style-filter {
-    background-color:var(--second-fon-color);
-    color:var( --title-text-color) ;
-
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    text-align: center;
-    letter-spacing: 0.03em;
-    cursor: pointer;
-}
-.style-filter:hover,
-.style-filter:focus {
-    background-color: var(--accent-color);
-    color: var(--primary-white-color);
-}
-/* Examples */
-.examples .title {
-    color:var(--title-text-color) ;
-
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2.0;
-    letter-spacing: 0.06em;
-}
-.examples .text { 
-    color:var(--primary-text-color) ;
-
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.03em;
-}
-.examples-link{
-    color:var(--title-text-color) ;
-}
