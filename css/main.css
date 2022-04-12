@@ -46,15 +46,14 @@ address{
 
 /* Site nav */
 
-.site-nav{
-    color: var( --title-text-color);
+.site-nav .link-page{
+    color: var(--title-text-color);
 
-    font-family: Roboto;
+    font-family: Roboto,sans-serif;
     font-size: 14px;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    text-decoration: none;
 }
 
 .site-nav .link-page:hover , 
@@ -74,7 +73,6 @@ address{
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    text-decoration: none;
 }
 .contact:hover,
 .contact:focus {
@@ -188,7 +186,7 @@ address{
     background-color:var(--second-fon-color);
     color:var( --title-text-color) ;
 
-    font-family: inherit;
+    font-family: Roboto,sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -252,7 +250,6 @@ address{
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    text-decoration: none;
 }
 
 .direct{
@@ -262,7 +259,6 @@ address{
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    text-decoration: none;
 }
 .direct:hover,
 .direct:focus{
